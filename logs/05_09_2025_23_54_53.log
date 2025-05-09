@@ -1,0 +1,4 @@
+[2025-05-09 23:55:15,559 ] 9 root - INFO - The execution has started...
+[2025-05-09 23:55:17,680 ] 50 root - INFO - Data exported to artifacts\raw_data.csv
+[2025-05-09 23:55:17,697 ] 54 root - INFO - Data exported to artifacts\train.csv and artifacts\test.csv
+[2025-05-09 23:55:17,697 ] 16 root - ERROR - An error occurred: Error occurred in script: [E:\ML projects\MLproject1\src\MLProject1\components\data_ingestion.py] at line number: [57] with error message: ['DataIngestion' object has no attribute 'ingestion_config']

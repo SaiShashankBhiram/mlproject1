@@ -1,0 +1,3 @@
+[2025-05-10 00:04:38,305 ] 9 root - INFO - The execution has started...
+[2025-05-10 00:04:42,310 ] 50 root - INFO - Data exported to artifacts\raw_data.csv
+[2025-05-10 00:04:42,334 ] 55 root - INFO - Data exported to artifacts\train.csv and artifacts\test.csv

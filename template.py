@@ -7,6 +7,8 @@ logging.basicConfig(level=logging.INFO)
 
 project_name = "MLProject1"
 
+os.makedirs("notebook/data", exist_ok=True),
+
 list_of_files = [
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
@@ -20,6 +22,8 @@ list_of_files = [
     f"src/{project_name}/exception.py",
     f"src/{project_name}/logger.py",
     f"src/{project_name}/utils.py",
+    f"notebook/EDA.ipynb",
+    f"notebook/Model_Training.ipynb",
     "app.py",
     "Dockerfile",
     "requirements.txt",

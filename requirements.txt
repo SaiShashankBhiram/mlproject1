@@ -11,5 +11,6 @@ certifi
 python-dotenv
 catboost
 xgboost
+mlflow
 
 #-e .

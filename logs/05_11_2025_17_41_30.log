@@ -1,0 +1,14 @@
+[2025-05-11 17:41:32,961 ] 10 root - INFO - The execution has started...
+[2025-05-11 17:41:32,961 ] 24 root - INFO - Fetching data from MongoDB...
+[2025-05-11 17:41:32,961 ] 21 root - INFO - Connecting to MongoDB...
+[2025-05-11 17:41:34,661 ] 35 root - INFO - Data successfully fetched from MongoDB.
+[2025-05-11 17:41:34,661 ] 28 root - INFO - Loading local CSV data from notebook/data\student_raw.csv...
+[2025-05-11 17:41:34,667 ] 30 root - INFO - Local CSV data successfully loaded.
+[2025-05-11 17:41:34,668 ] 34 root - INFO - Merged MongoDB data with local CSV data.
+[2025-05-11 17:41:34,679 ] 38 root - INFO - Raw data saved to artifacts\raw_data.csv
+[2025-05-11 17:41:34,689 ] 44 root - INFO - Train/Test split saved at artifacts\train.csv and artifacts\test.csv
+[2025-05-11 17:41:34,724 ] 72 root - INFO - Read train and test data completed
+[2025-05-11 17:41:34,724 ] 53 root - INFO - Categorical Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-05-11 17:41:34,724 ] 54 root - INFO - Numerical Columns: ['writing_score', 'reading_score']
+[2025-05-11 17:41:34,726 ] 88 root - INFO - Applying preprocessing on training and testing data
+[2025-05-11 17:41:34,752 ] 96 root - INFO - Saved preprocessing object

@@ -4,14 +4,27 @@ from src.MLProject1.components.data_ingestion import DataIngestion
 from src.MLProject1.components.data_ingestion import DataIngestionConfig
 from src.MLProject1.components.data_transformation import DataTransformationConfig, DataTransformation
 from src.MLProject1.components.model_trainer import ModelTrainer, ModelTrainerConfig
-
+from dotenv import load_dotenv
+import mlflow
+import os
+import sys
+import dagshub
 
 import sys
+
+dagshub.init(repo_owner='SaiShashankBhiram', repo_name='mlproject1', mlflow=True)
 
 if __name__ == "__main__":
     logging.info("The execution has started...")
 
     try:
+
+        load_dotenv()
+
+        mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI"))
+        mlflow.set_experiment("Best_Model_Experiment")
+
+
         data_ingestion = DataIngestion()
         #data_ingestion_config = DataIngestionConfig()
         #data_ingestion.export_data_to_csv()

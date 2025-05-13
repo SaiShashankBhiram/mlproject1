@@ -1,0 +1,23 @@
+[2025-05-12 01:21:31,416 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-05-12 01:21:31,420 ] 107 dagshub - INFO - Accessing as SaiShashankBhiram
+[2025-05-12 01:21:32,024 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/SaiShashankBhiram/mlproject1 "HTTP/1.1 200 OK"
+[2025-05-12 01:21:32,595 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-05-12 01:21:32,602 ] 107 dagshub - INFO - Initialized MLflow to track repo "SaiShashankBhiram/mlproject1"
+[2025-05-12 01:21:32,602 ] 107 dagshub - INFO - Repository SaiShashankBhiram/mlproject1 initialized!
+[2025-05-12 01:21:32,602 ] 18 root - INFO - The execution has started...
+[2025-05-12 01:21:33,335 ] 24 root - INFO - Fetching data from MongoDB...
+[2025-05-12 01:21:33,335 ] 26 root - INFO - Connecting to MongoDB...
+[2025-05-12 01:21:36,359 ] 40 root - INFO - Data successfully fetched from MongoDB.
+[2025-05-12 01:21:36,363 ] 28 root - INFO - Loading local CSV data from notebook/data\student_raw.csv...
+[2025-05-12 01:21:36,371 ] 30 root - INFO - Local CSV data successfully loaded.
+[2025-05-12 01:21:36,376 ] 34 root - INFO - Merged MongoDB data with local CSV data.
+[2025-05-12 01:21:36,395 ] 38 root - INFO - Raw data saved to artifacts\raw_data.csv
+[2025-05-12 01:21:36,420 ] 44 root - INFO - Train/Test split saved at artifacts\train.csv and artifacts\test.csv
+[2025-05-12 01:21:36,479 ] 72 root - INFO - Read train and test data completed
+[2025-05-12 01:21:36,479 ] 53 root - INFO - Categorical Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-05-12 01:21:36,479 ] 54 root - INFO - Numerical Columns: ['writing_score', 'reading_score']
+[2025-05-12 01:21:36,479 ] 88 root - INFO - Applying preprocessing on training and testing data
+[2025-05-12 01:21:36,519 ] 96 root - INFO - Saved preprocessing object
+[2025-05-12 01:21:36,519 ] 42 root - INFO - Split training and test input data
+[2025-05-12 01:23:51,051 ] 150 root - INFO - Best model found is Decision Tree with score 0.9571585585863829 on both training and testing data
+[2025-05-12 01:23:51,072 ] 39 root - INFO - The model training has been completed successfully.

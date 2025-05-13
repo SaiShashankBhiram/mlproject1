@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/ML%20projects/MLproject1/mlruns/0/bb3d428d25f6402c8b89b940899a3522/artifacts
+end_time: 1746987828787
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bb3d428d25f6402c8b89b940899a3522
+run_name: bedecked-foal-545
+run_uuid: bb3d428d25f6402c8b89b940899a3522
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746987821938
+status: 3
+tags: []
+user_id: saish

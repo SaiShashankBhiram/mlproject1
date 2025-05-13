@@ -1,0 +1,17 @@
+[2025-05-11 23:47:20,485 ] 12 root - INFO - The execution has started...
+[2025-05-11 23:47:20,485 ] 24 root - INFO - Fetching data from MongoDB...
+[2025-05-11 23:47:20,485 ] 26 root - INFO - Connecting to MongoDB...
+[2025-05-11 23:47:23,183 ] 40 root - INFO - Data successfully fetched from MongoDB.
+[2025-05-11 23:47:23,185 ] 28 root - INFO - Loading local CSV data from notebook/data\student_raw.csv...
+[2025-05-11 23:47:23,198 ] 30 root - INFO - Local CSV data successfully loaded.
+[2025-05-11 23:47:23,200 ] 34 root - INFO - Merged MongoDB data with local CSV data.
+[2025-05-11 23:47:23,226 ] 38 root - INFO - Raw data saved to artifacts\raw_data.csv
+[2025-05-11 23:47:23,292 ] 44 root - INFO - Train/Test split saved at artifacts\train.csv and artifacts\test.csv
+[2025-05-11 23:47:23,359 ] 72 root - INFO - Read train and test data completed
+[2025-05-11 23:47:23,359 ] 53 root - INFO - Categorical Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-05-11 23:47:23,361 ] 54 root - INFO - Numerical Columns: ['writing_score', 'reading_score']
+[2025-05-11 23:47:23,363 ] 88 root - INFO - Applying preprocessing on training and testing data
+[2025-05-11 23:47:23,396 ] 96 root - INFO - Saved preprocessing object
+[2025-05-11 23:47:23,399 ] 42 root - INFO - Split training and test input data
+[2025-05-11 23:49:20,954 ] 149 root - INFO - Best model found is XGBRegressor with score 0.9500330025715741 on both training and testing data
+[2025-05-11 23:49:20,982 ] 26 root - INFO - The model training has been completed successfully.

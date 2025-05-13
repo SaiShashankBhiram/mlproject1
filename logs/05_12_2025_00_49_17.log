@@ -1,0 +1,8 @@
+[2025-05-12 00:49:24,395 ] 15 root - INFO - The execution has started...
+[2025-05-12 00:49:25,063 ] 39 root - ERROR - An error occurred: API request to endpoint /api/2.0/mlflow/experiments/get-by-name failed with error code 401 != 200. Response body: '=============== ATTENTION! ===============
+
+To use authentication, you must first: 
+    Get your default access token from: https://dagshub.com/user/settings/tokens
+    OR 
+    Set a password: https://dagshub.com/user/settings/password 
+=========================================='

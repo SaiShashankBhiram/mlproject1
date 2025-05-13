@@ -14,9 +14,11 @@ from dataclasses import dataclass
 load_dotenv()
 
 # Load MongoDB connection details from environment variables
-MONGO_DB_URL = os.getenv("MONGO_DB_URL")
+MONGO_DB_URL = MONGO_DB_URL = os.getenv("MONGO_DB_URL").encode("utf-8").decode("unicode_escape")
 DATABASE_NAME = "SaiShashankDB"
 COLLECTION_NAME = "StudentData"
+
+print(f"MongoDB URL: {MONGO_DB_URL}")
 
 def fetch_data_from_mongo():
     """Fetches data from MongoDB and returns it as a pandas DataFrame."""

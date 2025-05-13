@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/ML%20projects/MLproject1/mlruns/0/bd71189d79a14e9185ae7182bd06b596/artifacts
+end_time: 1746987245302
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd71189d79a14e9185ae7182bd06b596
+run_name: sneaky-shrew-64
+run_uuid: bd71189d79a14e9185ae7182bd06b596
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746987245189
+status: 4
+tags: []
+user_id: saish

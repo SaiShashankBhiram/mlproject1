@@ -12,5 +12,7 @@ python-dotenv
 catboost
 xgboost
 mlflow
+fastapi
+uvicorn
 
 #-e .
